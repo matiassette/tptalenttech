@@ -333,7 +333,7 @@ footer nav ul li{
 /*-----------------------------------MEDIA QUERIES--------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------*/
 
-/* @media(max-width: 600px){
+@media(max-width: 600px){
     header,footer{
         flex-direction: column;
     }
@@ -345,7 +345,7 @@ footer nav ul li{
 .link-contacto{
     color: white;
     text-align: center;
-} */
+}
 
 @media (max-widtg: 600px) {
     header,footer{
