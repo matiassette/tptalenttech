@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/estilos.css" />
+
+    <title>Proyecto Final</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="div-logo">
+            <a class="logo" href="./index.html">
+                <img src="./img/godofwar.jpg" alt="Logo" class="nav-logo">
+            </a>
+        </div>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html"> Contacto</a>
+          </li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒<span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+    <main>
+        <h1 class="titulo-home text-secondary"> Bienvenidos a la tienda</h1>
+        <p>Somos una tienda de juegos digitales para PS4 y PS5. Ofrecemos tarjetas de saldo y suscripciones 
+            para PlayStation, Nintendo, Xbox, Steam y más. Precios bajos, entrega inmediata y soporte 24/7.</p>
+        <section>
+            <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
+            <!-- agregar un id al div, ahora lo necesitamos -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
+        </section>
+      
+    </main>
+    <footer>
+      <p>
+        <p>
+            <span class="copyr"> © </span> sitio realizado por matias sette para Talento Tech
+        </p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="./img/instagram.png" alt="logo de instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+    <!--👉 Agregar type module y enlace al index.js -->
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

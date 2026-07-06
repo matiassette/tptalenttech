@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a class="logo" href="/index.html">
+                <img src="/img/godofwar.jpg" alt="Logo" class="nav-logo">
+            </a>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html" >Home</a></li>
+                <li><a href="./contacto.html" >Contacto</a></li>
+                <!-- agrega un link al carrito, con un id para el contador -->
+                <li><a href="./carrito.html" class="carrito-icono">🛒 <span id="contador-carrito">0</span>
+            </a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+        <!-- modify this form HTML and place wherever you want your form -->
+            <form class="form-contacto" action="https://formspree.io/f/xojylryg" method="POST">
+                <div class="grupo-input">
+                    <label for="email">Su mail: </label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div class="grupo-input">
+                    <label for="mensaje">Escriba su mensaje:</label>
+                    <textarea id="mensaje" name="message"></textarea>
+                </div>
+                <!-- your other form fields go here -->
+                <button class="btn bg-secondary text-dark" type="submit">Enviar</button>   
+            </form>
+    </main>
+
+    <footer>
+        <p>
+            <span class="copyr"> © </span> sitio realizado por matias sette para Talento Tech
+        </p>
+        <nav>
+            <ul class="footer-list">
+                <li><img src="../img/whatsapp.png" alt="logo-whatsapp" class="imagen"></li>
+                <li><img src="../img/social.png" alt="logo-instagram" class="imagen"></li>
+            </ul>
+        </nav>
+    </footer>
+        <!-- agregar type moduley enlace al contacto js -->
+    <script type="module" src="../js/contacto.js"></script>
+</body>
+</html>

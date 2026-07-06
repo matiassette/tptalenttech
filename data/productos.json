@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "nombre": "Forza horizon",
+        "precio": 4500,
+        "img": "/img/horizon.jpg",
+        "descripcion":"Un juego de carreras para los dias de lluvia"
+    },
+        {
+        "id":"2",
+        "nombre": "Pragmata",
+        "precio": 8000,
+        "img": "/img/pragma.jpg",
+        "descripcion":"Un juego de logica y entretenimiento"
+    },
+        {
+        "id":"3",
+        "nombre": "Howarts legacy",
+        "precio": 3000,
+        "img": "/img/howartslegacy.jpg",
+        "descripcion":"Un juego de magia y hechiceria"
+    },
+        {
+        "id":"4",
+        "nombre": "Spiderman",
+        "precio": 9000,
+        "img": "/img/spiderman.jpg",
+        "descripcion":"Un juego de rol para divertirse"
+    }
+]
